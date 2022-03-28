@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f",
+        "activityBar.background": "#023608",
+        "titleBar.activeBackground": "#024C0B",
+        "titleBar.activeForeground": "#ECFEEE"
+    },
+    "jupyter.jupyterServerType": "local",
+    "notebook.output.textLineLimit": 300
+}
