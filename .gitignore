@@ -1,3 +1,5 @@
 *.JPEG
 *.txt
 *.pkl
+*.pyc
+*.png
