@@ -18,8 +18,13 @@ class ResNetLayer(nn.Module):
 
     def forward(self, input):
         ######################## task 2.1 ##########################
-
-        pass
+        output = self.conv0(input)
+        output = self.bn0(output)
+        output = F.relu(output)
+        output = self.conv1(output)
+        output = self.bn1(output)
+        output = F.relu(output + self.skipconn_bn(self.skipconn_cnn(input)))
+        return output
         ########################    END   ##########################
 
 
